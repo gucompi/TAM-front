@@ -35,7 +35,7 @@ export default function Alarms() {
           <Tarjeta></Tarjeta>
         </Grid>
         <Grid className={classes.grafico} item xs={6}>
-          <iframe  id="tradingview_1a9c0"
+          <iframe title="c" id="tradingview_1a9c0"
             src="https://s.tradingview.com/embed/Ypov7RTu/?method=script&utm_source=members.ichimokufibonacci.com&utm_medium=widget&utm_campaign=chart&utm_term=undefined" 
             style={{width: '100%', height: '100%', margin: '0 !important', padding: '0 !important'}} 
             frameBorder={0} allowTransparency="true" scrolling="no" />
@@ -48,7 +48,7 @@ export default function Alarms() {
           <Tarjeta></Tarjeta>
         </Grid>
         <Grid className={classes.grafico} item xs={6}>
-          <iframe  id="tradingview_1a9c0"
+          <iframe title="d" id="tradingview_1a9c0"
             src="https://s.tradingview.com/embed/Ypov7RTu/?method=script&utm_source=members.ichimokufibonacci.com&utm_medium=widget&utm_campaign=chart&utm_term=undefined" 
             style={{width: '100%', height: '100%', margin: '0 !important', padding: '0 !important'}} 
             frameBorder={0} allowTransparency="true" scrolling="no" />

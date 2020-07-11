@@ -36,15 +36,6 @@ const useStyles = makeStyles((theme) => ({
     maxHeight: '100%',
   },
 }));
-function verifyCallback  (recaptchaToken) {
-  // Here you will get the final recaptchaToken!!!  
-  console.log(recaptchaToken, "<= your recaptcha token")
-}
-
- function updateToken ()  {
-  // you will get a new token in verifyCallback
-  this.recaptcha.execute();
-}
 function ForumItem() {
   const classes = useStyles();
  
@@ -86,7 +77,6 @@ function ForumItem() {
 
 
 function ChatEditor() {
-  const classes = useStyles();
 
   return (
     <Grid item xs={12}>
